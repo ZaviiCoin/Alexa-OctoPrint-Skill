@@ -15,7 +15,7 @@ exports.handler = function( event, context ) {
             var json = JSON.parse( data );
 
             var text = 'Your 3D Print has ';
-            text+=json.printTimeLeft+" Minutes Remaining";
+            text+=json.progress.printTimeLeft+" Minutes Remaining";
             output( text, context );
 
         } );
