@@ -1,0 +1,9 @@
+{
+  "intents": [ {
+    "intent": "HowLong",
+    "slots": [ {
+       "name": "OctoPrint",
+       "type": "LITERAL"
+    } ]
+  } ]
+}

@@ -1,0 +1,4 @@
+HowLong {how long until my 3d print is finished | OctoPrint}
+HowLong {time until 3d print is finished | OctoPrint}
+HowLong {3d print time remaining | OctoPrint}
+HowLong {how many minutes remaining for the 3d print | OctoPrint}
