@@ -2,7 +2,7 @@ exports.handler = function( event, context ) {
 
     var http = require( 'http' );
 
-    var url = 'Your OctoPrint API Key Goes here!';
+    var url = 'Your OctoPrint Link & API Key Goes here!';
 
     http.get( url, function( response ) {
 
