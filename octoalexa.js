@@ -1,8 +1,9 @@
 exports.handler = function( event, context ) {
 
     var http = require( 'http' );
-
-    var url = 'http://Your_IP/api/job?apikey=YourAPIKEY';
+/////////////////////////////////////////////////////////////
+    var url = 'http://external_ip/api/job?apikey=YourAPIKEY'; //replace external ip with your ip address found www.whatsmyip.org Also make sure your API Key is enabled.
+/////////////////////////////////////////////////////////////
 
     http.get( url, function( response ) {
 
